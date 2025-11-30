@@ -1,0 +1,22 @@
+.productos{
+    display:flex;
+    flex-wrap:center;
+    padding: 50px;
+    
+    /*gap: 10 px;*/
+}
+
+.productos{
+        border:15px solid #ccc;
+        padding:10px;
+        width: 100%;
+
+    img {
+        width: 300px;       /* elige el ancho que quieras */
+        height: 200px;      /* elige la altura */
+        object-fit: cover;  /* recorta la imagen sin deformarla */
+        border-radius: 10px; /* opcional */
+}
+
+}
+
